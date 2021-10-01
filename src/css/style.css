@@ -24,7 +24,7 @@ body {
   color: #2C2C2C; }
 
 .container .sectionTitle {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   color: #2C2C2C;
   font-weight: 700;
   text-align: center; }
@@ -34,15 +34,35 @@ body {
   font-weight: 800;
   color: #F9F9F9; }
 
-.navbar .nav-link {
-  font-size: 1.6rem;
-  font-weight: 400;
-  font-family: 'Rubik', sans-serif;
-  color: #000; }
+.container .logo {
+  width: 6.5rem; }
+
+.container .luckyReflectionImg {
+  width: 30rem; }
+
+.container .lucyDes {
+  text-align: justify;
+  opacity: 0.6;
+  line-height: 1.8; }
+
+.navbar {
+  margin-top: 3rem; }
+  .navbar .navbar-nav {
+    padding-left: 7.1rem; }
+  .navbar .nav-item {
+    padding-right: 2rem; }
+  .navbar .nav-item .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    text-transform: uppercase; }
 
 .banner .bannerTitle {
   color: #2C2C2C;
-  font-size: 4.2rem; }
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5; }
 
 .button {
   font-size: 1.8rem;
@@ -50,7 +70,10 @@ body {
   color: #FFFFFF;
   background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
   border-radius: 60px;
-  padding: 1rem 2.5rem; }
+  padding: .5rem 3.5rem; }
+
+.button:hover {
+  color: #fff; }
 
 .login {
   font-size: 1.8rem;
@@ -60,9 +83,33 @@ body {
   background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
   box-shadow: 0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25);
   border-radius: 60px;
-  font-weight: 700; }
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem 3.5rem; }
+
+.btnGroup {
+  padding-top: 6rem; }
 
 .whiteBtn {
-  filter: drop-shadow(0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25));
-  border: 2px solid;
-  border-image-source: linear-gradient(180deg, #79F1A4 0%, #0E5CAD 100%); }
+  background: #fff;
+  color: #000;
+  margin-left: 3rem;
+  border: 2px solid #79F1A4;
+  border-radius: 6rem;
+  border-style: solid;
+  -webkit-border-radius: 6rem;
+  -moz-border-radius: 6rem;
+  -ms-border-radius: 6rem;
+  -o-border-radius: 6rem;
+  font-weight: 700;
+  padding: 1rem 3.5rem; }
+
+.whiteBtn:hover {
+  color: #000; }
+
+#luckyReflection {
+  height: 50rem;
+  background: linear-gradient(180deg, rgba(121, 241, 165, 0.0422) 0%, rgba(14, 92, 173, 0.04) 100%); }
+  #luckyReflection .container {
+    height: 50rem;
+    margin-top: 7rem; }
