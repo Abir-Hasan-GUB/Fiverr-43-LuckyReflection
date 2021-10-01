@@ -26,9 +26,10 @@ body {
     }
 
     .sectionTitle {
-        font-size: 2.8rem;
+        font-size: 3.8rem;
         color: #2C2C2C;
         font-weight: 700;
+        line-height: 4.8rem;
         text-align: center;
     }
 
@@ -39,7 +40,7 @@ body {
     }
 
     .logo {
-        width: 6.5rem;
+        width: 8rem;
     }
 
     .luckyReflectionImg {
@@ -102,6 +103,12 @@ body {
     color: #595959;
 }
 
+.bannerRight{
+    background:url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
 .bannerBtn {
     background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
     box-shadow: 0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25);
@@ -138,7 +145,7 @@ body {
 
 #luckyReflection {
     height: 50rem;
-    background: linear-gradient(180deg, rgba(121, 241, 165, 0.0422) 0%, rgba(14, 92, 173, 0.04) 100%);
+    background: #FAFEFB;
 
     .container {
         height: 50rem;
@@ -160,13 +167,14 @@ body {
         -o-border-radius: 2.7312rem;
         border: none;
         padding: 2rem 1.5rem;
-        min-height: 54rem;
+        min-height: 57rem;
         margin-bottom: 3rem;
 
         .card-title {
             font-size: 1.8rem;
             font-weight: 700;
             color: #2C2C2C;
+            margin-bottom: 3rem;
         }
 
         .card-text {
@@ -180,15 +188,8 @@ body {
 }
 
 #roadmap {
-
     .roadmapCtrl {
         height: 50rem;
-    }
-
-    background: linear-gradient(180deg, rgba(121, 241, 164, 0.1) 0%, rgba(14, 92, 173, 0.1) 100%);
-
-    .row {
-        // width: 80%;
     }
 
     .col {
@@ -250,7 +251,7 @@ body {
 
     .phase1 {
         font-weight: 700;
-        font-size: 2.8rem;
+        font-size: 2rem;
         line-height: 3.1rem;
         text-align: center;
         margin-top: -4rem;
@@ -290,7 +291,7 @@ body {
 
             button {
                 font-weight: 700;
-                font-size: 2.5rem;
+                font-size: 2rem;
                 line-height: 3.5rem;
                 color: #000000;
                 opacity: 0.6;
@@ -353,7 +354,7 @@ body {
         color: #F9F9F9;
         font-weight: 800;
         opacity: 0.8;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
@@ -367,15 +368,62 @@ body {
 #luckyReflection {
     background-image: url(../images/lucyReflectionLeftBg.png);
     background-repeat: no-repeat;
-    background-position: left bottom;
+    background-position: left top;
 }
 
 #features {
     background-image: url(../images/featuresBg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    .sectionTitle{
+        padding-bottom: 7rem !important;
+    }
 }
-
+#roadmap{
+    background: url(../images/roadmapBg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#overlayRoadmap{
+    background: linear-gradient(180deg, rgba(121, 241, 164, 0.1) 0%, rgba(14, 92, 173, 0.1) 100%);
+}
+.companyGroup{
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1rem 0;
+}
+.roadmapMobile{
+    .roadHeight{
+        height: auto !important;
+        position: relative;
+        text-align: center;
+        margin-top: 3rem;
+        padding: .5rem .5rem .5rem .5rem;
+        img{
+            display: none;
+        }
+        .leftLine{
+            position: absolute;
+            left: -7px;
+            top: -1rem;
+            height: 8rem;
+        }
+        .rightLine{
+            position: absolute;
+            right: -1rem;
+            top: -1rem;
+            height: 8rem;
+           
+}
+.phaseMobT{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2C2C2C;
+}
+.roadmap-5{
+    // margin-bottom: 4rem;
+}
+    }
+}
 // ------------ Responsiveness --------
 @media screen and (max-width: 575px) {
     .navbar .navbar-nav {
@@ -383,7 +431,7 @@ body {
     }
 
     .banner .bannerTitle {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         margin-top: 2rem;
     }
 
@@ -409,6 +457,7 @@ body {
     }
 
     #roadmap {
+
         .roadmapCtrl {
             width: 94%;
             margin: 0 auto;
@@ -457,5 +506,40 @@ body {
 
     #footer p {
         padding-left: 3rem;
+    }
+    #faq .faqControl .card button {
+        font-size: 1.7rem;
+    }
+    #faq .faqControl .card {
+        padding-left: 0;
+    }
+    .navbar {
+        margin-top: 0;
+    }
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .bannerContent{
+        text-align: center;
+    }
+    #banner {
+        background-image: none;
+    }
+    .container .sectionTitle {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+    #features {
+        margin-top: 3rem;
+    }
+    #roadmap {
+        background-image: none;
+    }
+    .roadmapTitle{
+        margin-bottom: 3rem;
+    }
+    .roadmapMobileCrl{
+        width: 100% !important;
     }
 }

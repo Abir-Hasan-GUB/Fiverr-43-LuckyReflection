@@ -16,9 +16,10 @@ body {
   font-weight: 500; }
 
 .container .sectionTitle {
-  font-size: 2.8rem;
+  font-size: 3.8rem;
   color: #2C2C2C;
   font-weight: 700;
+  line-height: 4.8rem;
   text-align: center; }
 
 .container .copyright {
@@ -27,7 +28,7 @@ body {
   color: #F9F9F9; }
 
 .container .logo {
-  width: 6.5rem; }
+  width: 8rem; }
 
 .container .luckyReflectionImg {
   width: 30rem; }
@@ -71,6 +72,12 @@ body {
   font-size: 1.8rem;
   color: #595959; }
 
+.bannerRight {
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
+
 .bannerBtn {
   background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
   box-shadow: 0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25);
@@ -101,7 +108,7 @@ body {
 
 #luckyReflection {
   height: 50rem;
-  background: linear-gradient(180deg, rgba(121, 241, 165, 0.0422) 0%, rgba(14, 92, 173, 0.04) 100%); }
+  background: #FAFEFB; }
   #luckyReflection .container {
     height: 50rem;
     margin-top: 7rem; }
@@ -119,12 +126,13 @@ body {
     -o-border-radius: 2.7312rem;
     border: none;
     padding: 2rem 1.5rem;
-    min-height: 54rem;
+    min-height: 57rem;
     margin-bottom: 3rem; }
     #features .card .card-title {
       font-size: 1.8rem;
       font-weight: 700;
-      color: #2C2C2C; }
+      color: #2C2C2C;
+      margin-bottom: 3rem; }
     #features .card .card-text {
       font-size: 1.4rem;
       opacity: 0.6;
@@ -132,67 +140,75 @@ body {
       font-weight: 500;
       line-height: 3.5rem; }
 
-#roadmap {
-  background: linear-gradient(180deg, rgba(121, 241, 164, 0.1) 0%, rgba(14, 92, 173, 0.1) 100%); }
-  #roadmap .roadmapCtrl {
-    height: 50rem; }
-  #roadmap .col {
-    height: 3.6rem;
-    padding: 0; }
-  #roadmap .roadmap-1 {
-    background: #FF9800;
-    box-shadow: 0px 18.336px 55.008px rgba(164, 160, 160, 0.28);
-    height: 3.6rem;
-    width: 100%; }
-  #roadmap .roadmap-2 {
-    background: #00C6DB;
-    box-shadow: 0px -18.336px 55.008px rgba(164, 160, 160, 0.28);
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    height: 3.6rem;
-    width: 100%; }
-    #roadmap .roadmap-2 h1,
-    #roadmap .roadmap-2 p {
-      transform: rotateX(180deg); }
-  #roadmap .roadmap-3 {
-    background: #89D7F8;
-    box-shadow: 0px 18.336px 55.008px rgba(164, 160, 160, 0.28);
-    height: 3.6rem;
-    width: 100%; }
-  #roadmap .roadmap-4 {
-    background: #FF3E7D;
-    box-shadow: 0px -18.336px 55.008px rgba(164, 160, 160, 0.28);
-    transform: matrix(1, 0, 0, -1, 0, 0);
-    height: 3.6rem;
-    width: 100%; }
-    #roadmap .roadmap-4 h1,
-    #roadmap .roadmap-4 p {
-      transform: rotateX(180deg); }
-  #roadmap .roadmap-5 {
-    background: #7438BB;
-    box-shadow: 0px 18.336px 55.008px rgba(164, 160, 160, 0.28);
-    height: 3.6rem;
-    width: 100%; }
-  #roadmap .lineDown {
-    margin-top: -8rem;
-    margin-left: -0.9rem; }
-  #roadmap .phase1 {
-    font-weight: 700;
-    font-size: 2.8rem;
-    line-height: 3.1rem;
-    text-align: center;
-    margin-top: -4rem;
-    color: #2C2C2C; }
-  #roadmap .phaseDetails {
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 2.2rem;
-    color: #000000;
-    opacity: 0.6;
-    margin-top: -6.5rem;
-    padding-left: 1rem; }
-  #roadmap .lineDownLast {
-    margin-top: -44rem;
-    margin-right: -0.8rem; }
+#roadmap .roadmapCtrl {
+  height: 50rem; }
+
+#roadmap .col {
+  height: 3.6rem;
+  padding: 0; }
+
+#roadmap .roadmap-1 {
+  background: #FF9800;
+  box-shadow: 0px 18.336px 55.008px rgba(164, 160, 160, 0.28);
+  height: 3.6rem;
+  width: 100%; }
+
+#roadmap .roadmap-2 {
+  background: #00C6DB;
+  box-shadow: 0px -18.336px 55.008px rgba(164, 160, 160, 0.28);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  height: 3.6rem;
+  width: 100%; }
+  #roadmap .roadmap-2 h1,
+  #roadmap .roadmap-2 p {
+    transform: rotateX(180deg); }
+
+#roadmap .roadmap-3 {
+  background: #89D7F8;
+  box-shadow: 0px 18.336px 55.008px rgba(164, 160, 160, 0.28);
+  height: 3.6rem;
+  width: 100%; }
+
+#roadmap .roadmap-4 {
+  background: #FF3E7D;
+  box-shadow: 0px -18.336px 55.008px rgba(164, 160, 160, 0.28);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  height: 3.6rem;
+  width: 100%; }
+  #roadmap .roadmap-4 h1,
+  #roadmap .roadmap-4 p {
+    transform: rotateX(180deg); }
+
+#roadmap .roadmap-5 {
+  background: #7438BB;
+  box-shadow: 0px 18.336px 55.008px rgba(164, 160, 160, 0.28);
+  height: 3.6rem;
+  width: 100%; }
+
+#roadmap .lineDown {
+  margin-top: -8rem;
+  margin-left: -0.9rem; }
+
+#roadmap .phase1 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.1rem;
+  text-align: center;
+  margin-top: -4rem;
+  color: #2C2C2C; }
+
+#roadmap .phaseDetails {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: #000000;
+  opacity: 0.6;
+  margin-top: -6.5rem;
+  padding-left: 1rem; }
+
+#roadmap .lineDownLast {
+  margin-top: -44rem;
+  margin-right: -0.8rem; }
 
 #faq {
   background: linear-gradient(180deg, rgba(121, 241, 164, 0.04) 0%, rgba(14, 92, 173, 0.04) 100%); }
@@ -204,7 +220,7 @@ body {
     margin-bottom: 2rem; }
     #faq .faqControl .card button {
       font-weight: 700;
-      font-size: 2.5rem;
+      font-size: 2rem;
       line-height: 3.5rem;
       color: #000000;
       opacity: 0.6;
@@ -247,7 +263,7 @@ body {
     color: #F9F9F9;
     font-weight: 800;
     opacity: 0.8;
-    font-size: 1.5rem; }
+    font-size: 1rem; }
 
 #banner {
   background-image: url(../images/bannerLeft.png);
@@ -257,18 +273,55 @@ body {
 #luckyReflection {
   background-image: url(../images/lucyReflectionLeftBg.png);
   background-repeat: no-repeat;
-  background-position: left bottom; }
+  background-position: left top; }
 
 #features {
   background-image: url(../images/featuresBg.png);
   background-repeat: no-repeat;
   background-position: right bottom; }
+  #features .sectionTitle {
+    padding-bottom: 7rem !important; }
+
+#roadmap {
+  background: url(../images/roadmapBg.png);
+  background-repeat: no-repeat;
+  background-position: left center; }
+
+#overlayRoadmap {
+  background: linear-gradient(180deg, rgba(121, 241, 164, 0.1) 0%, rgba(14, 92, 173, 0.1) 100%); }
+
+.companyGroup {
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1rem 0; }
+
+.roadmapMobile .roadHeight {
+  height: auto !important;
+  position: relative;
+  text-align: center;
+  margin-top: 3rem;
+  padding: .5rem .5rem .5rem .5rem; }
+  .roadmapMobile .roadHeight img {
+    display: none; }
+  .roadmapMobile .roadHeight .leftLine {
+    position: absolute;
+    left: -7px;
+    top: -1rem;
+    height: 8rem; }
+  .roadmapMobile .roadHeight .rightLine {
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    height: 8rem; }
+  .roadmapMobile .roadHeight .phaseMobT {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2C2C2C; }
 
 @media screen and (max-width: 575px) {
   .navbar .navbar-nav {
     padding-left: 0rem; }
   .banner .bannerTitle {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-top: 2rem; }
   .btnGroup {
     padding-top: 2rem; }
@@ -310,4 +363,28 @@ body {
   #faqAccrodion {
     padding: 0 1rem; }
   #footer p {
-    padding-left: 3rem; } }
+    padding-left: 3rem; }
+  #faq .faqControl .card button {
+    font-size: 1.7rem; }
+  #faq .faqControl .card {
+    padding-left: 0; }
+  .navbar {
+    margin-top: 0; }
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em; }
+  .bannerContent {
+    text-align: center; }
+  #banner {
+    background-image: none; }
+  .container .sectionTitle {
+    font-size: 2.8rem;
+    line-height: 3.8rem; }
+  #features {
+    margin-top: 3rem; }
+  #roadmap {
+    background-image: none; }
+  .roadmapTitle {
+    margin-bottom: 3rem; }
+  .roadmapMobileCrl {
+    width: 100% !important; } }
