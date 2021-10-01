@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif; }
+
+.rubik {
+  font-family: 'Rubik', sans-serif; }
+
+.container p {
+  font-size: 1.6rem;
+  font-weight: 500; }
+
+.container .card .card-body {
+  font-size: 1.4rem; }
+
+.container .card .card-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #2C2C2C; }
+
+.container .sectionTitle {
+  font-size: 3.2rem;
+  color: #2C2C2C;
+  font-weight: 700;
+  text-align: center; }
+
+.container .copyright {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #F9F9F9; }
+
+.navbar .nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+  color: #000; }
+
+.banner .bannerTitle {
+  color: #2C2C2C;
+  font-size: 4.2rem; }
+
+.button {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
+  border-radius: 60px;
+  padding: 1rem 2.5rem; }
+
+.login {
+  font-size: 1.8rem;
+  color: #595959; }
+
+.bannerBtn {
+  background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
+  box-shadow: 0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25);
+  border-radius: 60px;
+  font-weight: 700; }
+
+.whiteBtn {
+  filter: drop-shadow(0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25));
+  border: 2px solid;
+  border-image-source: linear-gradient(180deg, #79F1A4 0%, #0E5CAD 100%); }
