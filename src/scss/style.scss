@@ -103,12 +103,6 @@ body {
     color: #595959;
 }
 
-.bannerRight{
-    background:url(../images/banner.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-}
 .bannerBtn {
     background: linear-gradient(264.48deg, #79F1A4 -45.37%, #0E5CAD 88.97%);
     box-shadow: 0px 13.7981px 22.5788px rgba(50, 174, 137, 0.25);
@@ -357,22 +351,21 @@ body {
         font-size: 1rem;
     }
 }
-
 #banner {
 
-    background-image: url(../images/bannerLeft.png);
+    background-image: url(../images/bannerLeft.svg);
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 #luckyReflection {
-    background-image: url(../images/lucyReflectionLeftBg.png);
+    background-image: url(../images/lucyReflectionLeftBg.svg);
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 #features {
-    background-image: url(../images/featuresBg.png);
+    background-image: url(../images/featuresBg.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
     .sectionTitle{
@@ -380,7 +373,7 @@ body {
     }
 }
 #roadmap{
-    background: url(../images/roadmapBg.png);
+    background: url(../images/roadMapBg.svg);
     background-repeat: no-repeat;
     background-position: left center;
 }
